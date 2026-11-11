@@ -42,11 +42,9 @@ textarea {
 
 .navbar {
     position: relative;
-
     width: min(1200px, 92%);
     min-height: 80px;
     margin: 0 auto;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -56,11 +54,10 @@ textarea {
     display: flex;
     align-items: center;
     flex-shrink: 0;
-
     font-size: 1.6rem;
     font-weight: 800;
     line-height: 1;
-    letter-spacing: -0.5px;
+    letter-spacing: 0.5px;
 }
 
 .logo span {
@@ -71,22 +68,18 @@ textarea {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-
     display: flex;
     align-items: center;
     gap: 2rem;
-
     list-style: none;
 }
 
 .nav-link {
     display: block;
     padding: 0.5rem 0;
-
     color: #CBD5E1;
     font-size: 0.95rem;
     font-weight: 500;
-
     transition: color 0.3s ease;
 }
 
@@ -99,27 +92,20 @@ textarea {
     display: flex;
     align-items: center;
     gap: 0.75rem;
-
     margin-left: auto;
 }
 
-.theme-toggle,
-.menu-toggle {
+.theme-toggle, .menu-toggle {
     width: 40px;
     height: 40px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     border: 1px solid #1E293B;
     border-radius: 8px;
-
     background-color: transparent;
     color: #F8FAFC;
-
     cursor: pointer;
-
     transition: all 0.3s ease;
 }
 
@@ -127,8 +113,7 @@ textarea {
     border-radius: 50%;
 }
 
-.theme-toggle:hover,
-.menu-toggle:hover {
+.theme-toggle:hover, .menu-toggle:hover {
     color: #3B82F6;
     border-color: #3B82F6;
 }
@@ -157,13 +142,12 @@ textarea {
 .hero-greeting {
     margin-bottom: 0.75rem;
     color: #3B82F6;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
 .hero h1 {
     margin-bottom: 1rem;
-
     color: #F8FAFC;
     font-size: clamp(2.5rem, 6vw, 4.5rem);
     line-height: 1.05;
@@ -255,7 +239,7 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translateY(-30px);
+    transform: translateY(-40px);
 }
 
 .hero-image-wrapper {
@@ -929,9 +913,9 @@ textarea {
 
 /* Contact */
 .contact {
-    width: min(1200px, 92%);
+   width: min(1200px, 92%);
     margin: 0 auto;
-    padding: 5rem 0;
+    padding: 2.5rem 0 5rem;
 }
 
 .contact-content {

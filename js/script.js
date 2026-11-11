@@ -44,4 +44,22 @@ document.addEventListener("DOMContentLoaded", function () {
             menuToggle.setAttribute("aria-label", "Open navigation menu");
         }
     });
+
+    // Active Navigation link
+    const sections = document.querySelectorAll("main section");
+    const navItems = querySelectorAll(".nav-link");
+    window.addEventListener("scroll", function () {
+        let currentSection = "";
+        sections.forEach(funtion(section){
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.offsetHeight;
+
+if(window.scrollY >= sectionTop - 150) {
+    currentSection,
+}
+        })
+    })
+
+
 });
+
